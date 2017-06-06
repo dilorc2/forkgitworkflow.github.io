@@ -80,7 +80,9 @@
     <a name="trees"></a>
     <div class="scrollblock block-trees">
         <h2>Clone from forked repositories</h2>
-        <p>
+			</br>
+				<img src="img/picture1.png" alt="" />
+				<p>
 					Clone from you own forked repositories.<br/>
 					<code>git clone https://repo</code>
 
@@ -112,7 +114,9 @@
     <a name="add"></a>
     <div class="scrollblock block-add">
         <h2>Publish a feature</h2>
-        <p>
+			</br>
+				<img src="img/picture2.png" alt="" />
+				<p>
             Push to the public repository.<br />
             <code>git push origin feature-branch</code><br />
             <!-- <code>git add .</code><br />
@@ -124,7 +128,9 @@
     <a name="push"></a>
     <div class="scrollblock block-remote">
         <h2>Project Maintainer Integrates</h2>
-        <p>
+				</br>
+				<img src="img/picture3.png" alt="" />
+				<p>
 					Fetch and integrate to master repo</br>
 					<code>git fetch https://devrepo_feature-branch</code><br />
 					Inspect the changes<br />
@@ -145,12 +151,16 @@
     </div>
     <a name="branching"></a>
     <div class="scrollblock block-branching">
-        <h2>branching</h2>
+        <h2>Developers synchronize with official repo</h2>
+			</br>
+				<img src="img/picture4.png" alt="" />
         <p>
-            Branches are used to develop features isolated from each other. The <i>master</i> branch is the "default" branch when you create a repository. Use other branches for development and merge them back to the master branch upon completion.
+					Synchronize to changes with main codebase master<br />
+					<code>git pull upstream </code><br />
+            <!-- Branches are used to develop features isolated from each other. The <i>master</i> branch is the "default" branch when you create a repository. Use other branches for development and merge them back to the master branch upon completion. -->
         </p>
-        <img src="img/branches.png" alt="" />
-        <p>
+        <!-- <img src="img/branches.png" alt="" /> -->
+        <!-- <p>
             create a new branch named "feature_x" and switch to it using<br />
             <code>git checkout -b feature_x</code><br />
             switch back to master<br />
@@ -159,10 +169,10 @@
             <code>git branch -d feature_x</code><br />
             a branch is <i>not available to others</i> unless you push the branch to your remote repository<br />
             <code>git push origin &lt;branch&gt;</code>
-        </p>
+        </p> -->
     </div>
     <a name="update"></a>
-    <div class="scrollblock block-merging">
+    <!-- <div class="scrollblock block-merging">
         <h2>update &amp; merge</h2>
         <p>
             to update your local repository to the newest commit, execute <br />
@@ -177,8 +187,8 @@
             before merging changes, you can also preview them by using<br />
             <code>git diff &lt;source_branch&gt; &lt;target_branch&gt;</code>
         </p>
-    </div>
-    <a name="tagging"></a>
+    </div> -->
+    <!-- <a name="tagging"></a>
     <div class="scrollblock block-tagging">
         <h2>tagging</h2>
         <p>
@@ -204,8 +214,8 @@
             These are just a few of the possible parameters you can use. For more, see
             <code>git log --help</code><br />
         </p>
-    </div>
-    <a name="checkout-replace"></a>
+    </div> -->
+    <!-- <a name="checkout-replace"></a>
     <div class="scrollblock block-checkout-replace">
         <h2>replace local changes</h2>
         <p>
@@ -218,8 +228,8 @@
             <code>git fetch origin</code><br />
             <code>git reset --hard origin/master</code>
         </p>
-    </div>
-    <a name="hints"></a>
+    </div> -->
+    <!-- <a name="hints"></a>
     <div class="scrollblock block-hints">
         <h2>useful hints</h2>
         <p>
@@ -264,7 +274,7 @@
             </ul>
         </p>
     </div>
-    <a name="comments"></a>
+    <a name="comments"></a> -->
 
     <a href="files/GitWorkflow.pptx" onClick="recordOutboundLink(this, 'PowerPoint', 'git-pp');return false;" class="tower"></a>
     <a href="files/git_cheat_sheet.pdf" onClick="recordOutboundLink(this, 'Cheat Sheet', 'git-guide');return false;" class="cheatsheet"></a>
